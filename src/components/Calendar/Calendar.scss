@@ -1,0 +1,36 @@
+.calendar-title {
+  margin: 0 0 10 0;
+  font-size: 24;
+  font-weight: 300;
+  color: #58968B;
+}
+
+.calendar-header {
+  font-size: 12;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  vertical-align: center;
+}
+
+.calendar-day {
+  font-size: 14;
+  font-weight: 300;
+  color: #000000;
+  text-align: center;
+  vertical-align: center;
+
+  width: 36;
+  height: 36;
+
+  &--current {
+    background-color: #58968B;
+    border-radius: 10;
+    color: #FFFFFF;
+  }
+
+  &--inactive {
+    color: #CBD3D9;
+  }
+}
+

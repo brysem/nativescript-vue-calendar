@@ -2,6 +2,8 @@
 
 > A calendar built with NativeScript-Vue
 
+![GitHub Logo](/example.png)
+
 ## Usage
 
 ``` bash
